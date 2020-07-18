@@ -1,4 +1,4 @@
-!pip install -e . 
+#!pip install -e . 
 from test_package import Configuration, stack, linked_list
 
 ll = linked_list.LinkedList()
@@ -15,6 +15,7 @@ for i in range(11,21):
 
 st.print_stack()
 st.pop()
+print('\n')
 st.print_stack()
 
 config.add(10,0)
