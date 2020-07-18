@@ -9,7 +9,7 @@ for i in range(1,11):
 	ll.append(i)
 
 ll.head.print_nodes()
-
+print('\n')
 for i in range(11,21):
 	st.push(i)
 
