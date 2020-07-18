@@ -1,3 +1,4 @@
+!pip install -e . 
 from test_package import Configuration, stack, linked_list
 
 ll = linked_list.LinkedList()
